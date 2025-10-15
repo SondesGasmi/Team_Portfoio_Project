@@ -15,21 +15,20 @@ CHERFIA Abdallah
 
 # Project Structure :
 team-portfolio-project/
-
-─ index.html               
-─ sondes.html            
-─ kawther.html
-─ aya.html
-─ souhaib.html
-─ abdallah.html
-─ style.css                
-─ images/                  
-    _ sondes.jpg
-    _ kawther.jpg
-    _ aya.jpg
-    _ souhaib.jpg
-    _ abdallah.jpg
-_ README.md                
+│
+├── index.html
+├── sondes.html
+├── kawther.html
+├── aya.html
+├── souhaib.html
+├── abdallah.html
+├── style.css
+├── images/
+│   ├── sondes.jpg
+│   ├── kawther.jpg
+│   └── ...jpg
+└── README.md
+            
 
 
 # Tools Used
