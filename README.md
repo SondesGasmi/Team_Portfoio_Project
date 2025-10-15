@@ -40,7 +40,6 @@ _ README.md
 - Discord
 
 # Project Timeline:
-## 📅 Project Timeline
 
 - **Oct 15:** Repository setup and configuration — *Team Lead*  
 - **Oct 17–20:** Individual profile page development — *All Members*  
