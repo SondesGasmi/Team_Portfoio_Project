@@ -1,1 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GASMI Sondes - Portfolio</title>
 
+  <style>
+    /* Reset some default browser styling */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Page styling */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f5f7fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* Card styling */
+    .portfolio-card {
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 90%;
+      max-width: 500px;
+      padding: 30px;
+      text-align: center;
+    }
+
+    /* Profile picture */
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    /* Name styling */
+    .name {
+      font-size: 28px;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    /* Bio text */
+    .bio {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
+    /* Skills section */
+    .skills {
+      list-style-type: none;
+      font-size: 15px;
+      color: #444;
+      margin-bottom: 25px;
+    }
+
+    .skills li {
+      padding: 4px 0;
+    }
+
+    /* GitHub link */
+    .github-link {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #24292e;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+
+    .github-link:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="portfolio-card">
+    <img src="me.jpg" alt="me" class="profile-pic">
+
+    <h1 class="name">GASMI Sondes</h1>
+
+    <p class="bio">
+      Third year AI student at ENSIA
+      Interested in Data Science and Software Development
+    </p>
+
+    <h2>Technical Skills</h2>
+    <ul class="skills">
+      <li>HTML, CSS, JavaScript , PHP</li>
+      <li>Python, Java</li>
+      <li>Git & GitHub</li>
+    </ul>
+
+    <a href="https://github.com/SondesGasmi" target="_blank" class="github-link">
+      Visit my GitHub Profile
+    </a>
+  </div>
+</body>
+</html>
